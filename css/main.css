@@ -23,8 +23,9 @@ body {
   max-width: 960px;
 }
 
-#jumbotron > .mdl-grid {
-  min-height: 90vh;
+.jumbotron > .jumbotron-header {
+  min-height: 65vh;
+  text-align: center;
 }
 
 #jumbotron-text {
@@ -52,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 100px;
 }
 
+.about-me {
+  margin-top: 7vh;
+  margin-bottom: 4vh;
+}
 .headshot-card-image.mdl-card {
   width: 256px;
   height: 256px;
@@ -59,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .headshot-card-text {
-  height: 256px;
+  min-height: 256px;
   width: 100%;
 }
 
@@ -67,4 +72,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   padding-top: 0;
   font-size: 1.1rem;
+}
+
+footer {
+  background-color: rgba(33, 33, 33, .03);
+  text-align: center;
 }
